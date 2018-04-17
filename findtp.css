@@ -1,0 +1,511 @@
+/* fonts*/
+
+@font-face {
+    font-family: "aniron";
+    src: url("font/aniron/anicm___.ttf");
+    src: url("font/aniron/anirb___.ttf");
+}
+
+@font-face {
+    font-family: "tengwar";
+    src: url("font/tengwar/tngan.ttf");
+}
+
+@font-face {
+    font-family: "business";
+    src: url("font/business/partybusiness.ttf");
+}
+
+/* body */
+
+.body {
+    background-image: url(img/bg_light.png);
+}
+
+/* carousel*/
+
+.carousel-caption {
+    top: 40%;
+    bottom: auto;
+    font-family: "aniron";
+}
+
+/* .carousel-control-prev {
+    height: 60%;
+    width: 150px;
+} */
+
+/* navbar*/
+
+.navbar {
+    background-color: rgb(255, 115, 0);
+}
+
+.navbar p {
+    color: rgb(249, 249, 249);
+}
+
+.navbar a {
+    font-family: "aniron";
+    font-size: 1.3em;
+}
+
+.nav-item a:hover {
+    color: black;
+}
+
+/* pills*/
+
+.pills {
+    background-image: url(img/bg_light.png);
+}
+
+.pills a:hover {
+    color: rgb(255, 102, 0);
+}
+
+.pills a {
+    font-family: "aniron";
+    color: rgb(183, 178, 178);
+}
+
+.nav-link active {
+    color: rgb(255, 102, 0);
+}
+
+.pills h3 {
+    font-family: "aniron";
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.nav-link active {
+    color: rgb(255, 102, 0);
+}
+
+u {
+    color: rgb(255, 102, 0);
+}
+
+p {
+    position: relative;
+    text-align: center;
+}
+
+.symbol {
+    font-family: "tengwar";
+}
+
+.symbolTengwar {
+    display: inline-flex;
+    text-align: center;
+    margin-left: 12%;
+}
+
+.symbolTengwar p {
+    color: rgb(255, 102, 0);
+}
+
+/* thumnails */
+
+.nav-menu {
+    font-family: "aniron";
+    font-size: 1.9em;
+    color: rgb(249, 249, 249);
+    text-align: center;
+}
+
+/* cards */
+
+.card-body {
+    background-color: black;
+}
+.card2{
+    background: black;
+    height:363px;
+}
+.card-text {
+    color: rgba(207, 194, 194, 0.815);
+    font-family: "business";
+    text-align: justify;
+    font-size: 2.3em;
+}
+
+.card-title {
+   margin-top: -90%;
+    font-family: "business";
+    text-align: center;
+    font-size: 2.3em;
+    color:black;
+    background-color:rgba(204, 32, 32, 0.7);
+}
+
+.card-title2 {
+    /* margin-top: -85% !important; */
+    font-family: "business";
+    text-align: center;
+    font-size: 5.5em;
+    color:red;
+}
+
+/* .card-body p {
+    color: white;
+    font-family: "business";
+    font-size: 3em;
+} */
+
+/* .card-body h5 {
+    color: white;
+    font-family: "business";
+    font-size: 3em;
+} */
+
+/* .card-title {
+    color: blue;
+    font-family: "business";
+    font-size: 3em;
+} */
+
+/* cards gandalf*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1449px){ 
+.bg-black{
+    background: black;
+}
+.partybusiness{
+    font-family: "business"; 
+}
+
+.img-wanted{
+    width: 480px;
+    height:550px;
+    margin:0 auto;
+    padding:10px;
+    }
+    .img-wanted img{
+    display: block;
+    opacity: 0.4;
+    width:100%;
+    margin:0 auto;
+    }
+    
+    .img-wanted:hover img{
+    opacity: 1;
+    transition-duration: 1s;
+    }
+    
+    .img-wanted p{
+    position:relative;
+    width: 350px;
+    margin: 0 auto;
+    text-align: center;
+    }
+    
+    .img-wanted p:first-of-type{
+    margin-top:-500px;
+    height:120px;
+    background: rgba(255,255,255,0.7);
+    border-radius: 15px;
+    font-size: 2.5em;
+    }
+    
+    .img-wanted span{
+    color: rgb(252,120,32);
+    }
+    
+    .img-wanted p:last-of-type{
+    margin-top:150px;
+    color:white;
+    font-size: 5em;
+    }
+    
+    .img-wanted:hover > p:first-of-type{
+    opacity:0;
+    transition-duration: 1s;
+    }
+    
+    .img-wanted:hover > p:last-of-type{
+    font-size:2.5em;
+    margin-top:250px;
+    transition-duration: 1s;
+    } 
+    .description{
+        background: black;
+        width: 480px;
+        height:150px;
+        margin:0 auto;
+        color:#676969;
+        text-align: left;
+        font-size: 3em;
+        padding: 10px;
+        } 
+
+    }
+    @media screen and (min-width: 768px) and (max-width:1448px){ 
+        .bg-black{
+            background:black;
+            }
+            
+            .img-wanted{
+            margin:0 auto;
+            padding:10px;
+            overflow: hidden;
+            }
+            .img-wanted img{
+            display: block;
+            opacity: 0.4;
+            width:100%;
+            margin:0 auto;
+            }
+            .img-wanted:hover img{
+            opacity: 1;
+            transition-duration: 1s;
+            }
+            .img-wanted p{
+            position:relative;
+            width:90%;
+            margin: 0 auto;
+            text-align: center;
+            }
+            
+            .img-wanted p:first-of-type{
+            margin-top:-230px;
+            height:80px;
+            background: rgba(255,255,255,0.7);
+            border-radius: 15px;
+            font-size: 1.5em;
+            }
+            
+            .img-wanted span{
+            color: rgb(252,120,32);
+            }
+            
+            .img-wanted p:last-of-type{
+            margin-top:100px;
+            color:white;
+            font-size: 2em;
+            }
+            
+            .img-wanted:hover > p:first-of-type{
+            opacity:0;
+            transition-duration: 1s;
+            }
+            
+            .img-wanted:hover > p:last-of-type{
+            font-size:2em;
+            transition-duration: 1s;
+            }
+            .fellows-x p:first-of-type{
+            margin-top:-230px;
+            height:80px;
+            background: rgba(255,255,255,0);
+            border-radius: 15px;
+            font-size: 1.5em;
+            color: rgb(252,120,32);
+            }
+            .description{
+            background: black;
+            width: 100%;
+            height:100px;
+            margin:0 auto;
+            color:#676969;
+            text-align: left;
+            font-size: 1.2em;
+            padding: 10px;
+            } 
+    }
+    @media screen and (min-width: 576px) and (max-width:767px){ 
+    
+        .bg-black{
+            background:black;
+            }
+            
+            .img-wanted{
+            margin:0 auto;
+            padding:10px;
+            overflow: hidden;
+            width:100%;
+            }
+            .img-wanted img{
+            display: block;
+            opacity: 0.4;
+            width:100%;
+            margin:0 auto;
+            }
+            
+            .img-wanted p{
+            position:relative;
+            width:90%;
+            margin: 0 auto;
+            text-align: center;
+            }
+            
+            .img-wanted p:first-of-type{
+            margin-top:-300px;
+            height:80px;
+            background: rgba(255,255,255,0.7);
+            border-radius: 15px;
+            font-size: 1.5em;
+            }
+            
+            .img-wanted span{
+            color: rgb(252,120,32);
+            }
+            
+            .img-wanted p:last-of-type{
+            margin-top:120px;
+            color:white;
+            font-size: 2em;
+            }
+            .fellows-x p:first-of-type{
+            margin-top:-300px;
+            height:80px;
+            background: rgba(255,255,255,0);
+            border-radius: 15px;
+            font-size: 1.5em;
+            color: rgb(252,120,32);
+            }
+            .description{
+            background: black;
+            width: 100%;
+            height:100px;
+            margin:0 auto;
+            color:#676969;
+            text-align: left;
+            font-size: 1.5em;
+            padding: 10px;
+            } 
+    
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.imgGandalf {
+    opacity: 0.7;
+    border: 5px solid black;
+}
+
+.imgGandalf:hover {
+    opacity: 1;
+
+}
+
+
+.imgGandalf:hover .card-title {
+    visibility: hidden;
+    transition-duration: 0,8s;
+}
+
+.imgGandalf:hover  .card-title2 {
+    /* margin-top: -50%; */
+    transition-duration: 0,8s;
+    font-size: 3em;
+    
+}
+
+/* cards aragorn*/
+
+.imgAragorn {
+    opacity: 0.7;
+    border: 5px solid black;
+}
+
+.imgAragorn:hover {
+    opacity: 1;
+}
+
+/* cards gimli*/
+
+.imgGimli {
+    opacity: 0.7;
+    border: 5px solid black;
+}
+
+.imgGimli:hover {
+    opacity: 1;
+}
+
+/* .gandalf {
+    margin-top: 170px;
+} */
+
+/* .gandalf p {
+    font-size: 6em;
+} */
+
+/* .reward {
+    font-size: 2em;
+    background-color: rgba(255, 255, 255, 0.7);
+    font-family: "business";
+    margin-top: -550px;
+    max-width: 90%;
+    margin-left: 5%;
+    border-radius: 15px;
+} */
+
+/* .rewardG p {
+    color: black;
+} */
+
+/* span {
+    color: rgb(255, 102, 0);
+} */
+
+/* .aragorn {
+    margin-top: 170px;
+} */
+
+/* .aragorn p {
+    font-size: 6em;
+} */
+
+/* .gimli {
+    margin-top: 205px;
+} */
+
+/* .gimli p {
+    font-size: 6em;
+}  */
